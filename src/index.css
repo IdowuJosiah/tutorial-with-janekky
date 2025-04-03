@@ -1,4 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .header{
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 50px 100px;
+        
+}
+.nav-button{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-logo{
+    font-size: 70PX;
+    color: blue;
+    width: 25px;
+}
+.item-list ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 10PX;
+}
+.item-list ul ol{
+    font-size: 30px;
+    padding: 10px 15px;
+}
+.reason-text{
+    font-size: 47px;
+}
+.numbered-list-section{
+    padding: 20px 30px;
 }

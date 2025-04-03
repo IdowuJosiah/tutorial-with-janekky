@@ -1,68 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { FaReact } from "react-icons/fa";
 import "./index.css"
+import Header from "./header"
+import ManiContent from "./ManiContents"
+import Footer from "./footer"
 
-
- const Header = () =>{
-    return (
-        <header className="header">
-            <nav>
-                <div>
-                    <FaReact/>
-                </div>
-                <div>
-                    <ul>
-                        <ol>
-                            Pricing
-                        </ol>
-                        <ol>
-                            About
-                        </ol>
-                        <ol>
-                            COntact
-                        </ol>
-                    </ul>
-                </div>
-            </nav>
-
-
-        </header>
-
-    )
- }
- const ManiContent = () => {
-    return (
-        <div>
-            <div>
-                <h1>
-                    reason im ecited to learn react
-                </h1>
-            </div>
-            <div>
-                <ol>
-                    <li>
-                        Was first realeased in 2013
-                    </li>
-                    <li>
-                        Was originally created by jordan walke
-                    </li>
-                </ol>
-            </div>
-        </div>
-
-    )
- }
- const Footer = () =>{
-    return (
-        <div>
-            <p>
-                2021 ziroll development. All Right Reserved
-            </p>
-        </div>
-    )
-
- }
+ 
+ 
+ 
 const newBaby = (
     <div className="bsd">
         <Header/>
