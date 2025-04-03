@@ -6,7 +6,7 @@ import "./index.css"
 
  const Header = () =>{
     return (
-        <header className="header">
+        <header className="header-josiah">
             <nav>
                 <div>
                     <FaReact/>
