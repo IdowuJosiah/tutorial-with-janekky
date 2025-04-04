@@ -1,36 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { FaReact } from "react-icons/fa";
 import "./index.css"
+import Header from "./header"
 
-
- const Header = () =>{
-    return (
-        <header className="header-josiah">
-            <nav>
-                <div>
-                    <FaReact/>
-                </div>
-                <div>
-                    <ul>
-                        <ol>
-                            Pricing
-                        </ol>
-                        <ol>
-                            About
-                        </ol>
-                        <ol>
-                            COntact
-                        </ol>
-                    </ul>
-                </div>
-            </nav>
-
-
-        </header>
-
-    )
- }
  const ManiContent = () => {
     return (
         <div>
