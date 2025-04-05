@@ -20,20 +20,20 @@ const testscore =(
         <h2>
             summary
         </h2>
-        <tb>
-            <tr>
+        <div>
+            <h2>
                 Reaction       80/100
-            </tr>
-            <tr>
+            </h2>
+            <h2>
                 Memory         92/100
-            </tr>
-            <tr>
+            </h2>
+            <h2>
                 Verbal         61/100
-            </tr>
-            <tr>
+            </h2>
+            <h2>
                 Visual         73/100
-            </tr>
-        </tb>
+            </h2>
+        </div>
         <button>
             Continue
         </button>
