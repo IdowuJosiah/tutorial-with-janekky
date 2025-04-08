@@ -1,11 +1,11 @@
-import ReactDom from "react-dom/client";
-
+import "./test.css"
 
 const testscore =(
 <div>
     <header>
       <h3>Your Result</h3>
     </header>
+
     <span>
         <h1>76</h1>
         <h4>of 100</h4>
@@ -20,6 +20,7 @@ const testscore =(
         <h2>
             summary
         </h2>
+
         <div>
             <h2>
                 Reaction       80/100
@@ -34,6 +35,7 @@ const testscore =(
                 Visual         73/100
             </h2>
         </div>
+
         <button>
             Continue
         </button>
@@ -41,6 +43,4 @@ const testscore =(
 </div>
 );
 
-
-const root = ReactDom.createRoot (document.getElementById ('root'))
-root.render(testscore)
+export default testscore
