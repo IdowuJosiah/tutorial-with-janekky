@@ -1,15 +1,17 @@
 import { FaReact } from "react-icons/fa";
-const Header = () =>{
+import "./index.scss"
 
+
+const Header = () =>{
 
     return (
         <header className="header-josiah">
-            <nav>
-                <div>
-                    <FaReact/>
+            <nav className="headers-nav">
+                <div className="headers-logo">
+                    <FaReact className="logo-icon"/>
                 </div>
-                <div>
-                    <ul>
+                <div className="nav-list-container">
+                    <ul className="nav-list">
                         <ol>
                             Pricing
                         </ol>
@@ -17,7 +19,7 @@ const Header = () =>{
                             About
                         </ol>
                         <ol>
-                            COntact
+                            Contact
                         </ol>
                     </ul>
                 </div>

@@ -1,45 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import "./index.css"
+import "./index.scss"
 import Header from "./header"
+import MainContent from "./MainContent"
+import Footer from "./Footer";
 
- const ManiContent = () => {
-    return (
-        <div>
-            <div>
-                <h1>
-                    reason im ecited to learn react
-                </h1>
-            </div>
-            <div>
-                <ol>
-                    <li>
-                        Was first realeased in 2013
-                    </li>
-                    <li>
-                        Was originally created by jordan walke
-                    </li>
-                </ol>
-            </div>
-        </div>
-
-    )
- }
- const Footer = () =>{
-    return (
-        <div>
-            <p>
-                2021 ziroll development. All Right Reserved
-            </p>
-        </div>
-    )
-
- }
 const newBaby = (
     <div className="bsd">
-        <Header/>
-        <ManiContent/>
-        <Footer/>
+        <div className="try">
+            <Header/>
+            <MainContent/>
+        </div>
+        <div className="try-two">
+            <Footer/>
+        </div>
+
     </div>
 );
 
