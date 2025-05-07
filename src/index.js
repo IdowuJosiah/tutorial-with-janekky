@@ -1,27 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import "./index.scss"
-import Header from "./header"
-import MainContent from "./MainContent"
-import Footer from "./Footer";
+// import Header from "./header"
+// import MainContent from "./MainContent"
+// import Footer from "./Footer";
+import AirApp from "../src/Tests/Airbnb/App"
 
 const newBaby = (
     <div className="bsd">
-        <div className="try">
-            <Header/>
-            <MainContent/>
-        </div>
-        <div className="try-two">
-            <Footer/>
-        </div>
-
+    <AirApp />
     </div>
 );
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(newBaby);
 
-
+// <div className="try">
+//     <Header/>
+//     <MainContent/>
+// </div>
+// <div className="try-two">
+//     <Footer/>
+// </div>
 // const Jennifer = (
 //     <div>
 //         <h1>Jennifer is the tallest lady in unique hostel</h1>
